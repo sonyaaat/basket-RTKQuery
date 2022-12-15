@@ -2,7 +2,7 @@ import { useGetBasketQuery } from 'redux/productsSlice';
 import BasketItem from '../BasketItem/BasketItem';
 import css from '../MenuList/MenuList.module.css';
 const BasketList = () => {
-  const { data, error, isLoading } = useGetBasketQuery();
+  const { data } = useGetBasketQuery();
 
   return (
     <div className={css.wrapper}>
