@@ -1,0 +1,28 @@
+.layout{
+    padding: 20px;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 1200px;
+        display: flex;
+}
+.link:not(:last-child){
+margin-right: 10px;
+}
+.link{
+    font-size: 20px;
+    color: black;
+}
+.active{
+    color:red;
+}
+.link:hover{
+    color: red;
+}
+.info{
+    padding: 10px;
+    color: blue;
+    margin-left: auto;
+    background-color: rgb(235, 230, 230);
+}

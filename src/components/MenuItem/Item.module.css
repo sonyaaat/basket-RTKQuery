@@ -1,0 +1,83 @@
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item:not(:last-child){
+    margin-bottom: 15px;
+}
+.button {
+    margin-left: 20px;
+    display: inline-flex;
+    text-decoration: none;
+    position: relative;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', Тahoma, sans-serif;
+    background: #337AB7;
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
+    height: 35px;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    color: #FFF;
+}
+.button:before,
+.button:after {
+    content: "";
+    border: 4px solid transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    box-sizing: content-box;   
+}
+.button:before {
+    top: -6px;
+    left: -6px;
+}
+.button:after {
+    bottom: -6px;
+    right: -6px;
+}
+.button:hover:before,
+.button:active:before,
+.button:focus:before {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-top-color: #337AB7;
+    border-right-color: #337AB7;
+    transition: width 0.2s ease-out, height 0.2s ease-out 0.2s;
+}
+.button:hover:after,
+.button:active:after,
+.button:focus:after {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-bottom-color: #337AB7;
+    border-left-color: #337AB7;
+    transition: border-color 0s ease-out 0.4s, width 0.2s ease-out 0.4s, height 0.2s ease-out 0.6s;
+}
+
+.delete_button{
+    background-color:rgb(5, 25, 91);
+}
+.name{
+    font-size: 20px;
+    color: blue;
+}
+.price{
+    margin-left: auto;
+    font-weight: bold;
+    color: rgb(35, 35, 132);
+}
+.right{
+    display: flex;
+    align-items: center;
+
+}
