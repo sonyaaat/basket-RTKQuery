@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/basket-RTKQuery/static/css/main.cecf0547.css",
+    "main.js": "/basket-RTKQuery/static/js/main.37d17023.js",
+    "index.html": "/basket-RTKQuery/index.html",
+    "main.cecf0547.css.map": "/basket-RTKQuery/static/css/main.cecf0547.css.map",
+    "main.37d17023.js.map": "/basket-RTKQuery/static/js/main.37d17023.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cecf0547.css",
+    "static/js/main.37d17023.js"
+  ]
+}
